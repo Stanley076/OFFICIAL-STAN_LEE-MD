@@ -1,7 +1,7 @@
    ## 𝔸1 ℍ𝔸ℕ𝕊 𝕋𝔼𝔸𝕄 ✌️
 
  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=red&size=25&center=true&vCenter=true&width=600&height=100&lines=I'm+hans+md+Created+by+hans.&heart;++;Self-taught+Back-Created+By,;Fredi+Ezra+Am+The,;Best+Is+Bot+For+You+To,;Deploy..<3"></a>
- <a href="https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f">
+ <a href="https://whatsapp.com/channel/0029VasiOoR3bbUw5aV4qB31">
  <img alt="HANS-MD" height="300" src="https://files.catbox.moe/3vkm13.jpeg">
   
 </h1> 
@@ -112,7 +112,7 @@ The WhatsApp Bot ℍ𝔸ℕ𝕊 𝕄𝔻 is released under the [MIT License](htt
  <a><img src='https://files.catbox.moe/3vkm13.gif'/></a>
  
 ★THANK YOU GOD FOR THAT MOMENT🙏. ©
-<a><img src='https://files.catbox.moe/3vkm13.gif'/></a>
+<a><img src='https://files.catbox.moe/huyw9t.jpg'/></a>
 
      
 
