@@ -90,11 +90,10 @@ star✨ my repo if you like this bot🤖
 
 ℂ𝕆ℕ𝕋𝔸ℂ𝕋 𝔻𝔼𝕍𝔼𝕃𝕆ℙ𝔼ℝ 𝕆ℕ 𝕎ℍ𝔸𝕋𝕊𝔸ℙℙ 
 
-<a href="http://wa.me/255760774888" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="255760774888" height="30" width="40" /></a>
+<a href="http://wa.me/255760774888" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="255760774888" height="30" width="40" /></a> "HANS TZ WHATSAPP CHAT"
 
 
-<a href="https://whatsapp.com/channel/0029VaiMm7d4yltT51HS1T1G" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="hanstech" height="30" width="40" /></a>
-
+<a href="https://whatsapp.com/channel/0029VasiOoR3bbUw5aV4qB31" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="hanstech" height="30" width="40" /></a> PLASE FOLLOW MY CHANNEL HANS-MD 
 
 
 ## License
