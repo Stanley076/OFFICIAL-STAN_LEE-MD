@@ -1,4 +1,4 @@
-<a><img src='https://files.catbox.moe/3vkm13.jpeg'/></a><a><img src=''/></a>
+<a><img src='https://files.catbox.moe/3vkm13.gif'/></a><a><img src=''/></a>
 
 
 <p align="center">                                                  HANS MD WHA BOT MADE IN TANZANIA  
@@ -18,7 +18,7 @@
 
 
 
-<a><img src='https://files.catbox.moe/3vkm13.jpeg'/></a><a><img src='https://files.catbox.moe/3vkm13.jpeg'/></a>
+<a><img src='https://files.catbox.moe/3vkm13.gif'/></a><a><img src='https://files.catbox.moe/3vkm13.gif'/></a>
 
 
 #### SETUP 
@@ -33,7 +33,7 @@
 [`PAIRING CODE`](https://anyway-0t9v.onrender.com)
  
 
-<a><img src='https://files.catbox.moe/3vkm13.jpeg'/></a><a><img src='https://files.catbox.moe/3vkm13.jpeg'/></a>
+<a><img src='https://files.catbox.moe/3vkm13.gif'/></a><a><img src='https://files.catbox.moe/3vkm13.gif'/></a>
 
 
 #### DEPLOY TO HEROKU 
@@ -54,4 +54,4 @@
 2. `If You Have an account on Render`
 - <a href="https://render.com"><img title="Deploy Now" src="https://img.shields.io/badge/DEPLOY NOW HANS-MD-h?color=red&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
 
-<a><img src='https://files.catbox.moe/3vkm13.jpeg'/></a><a><img src='https://files.catbox.moe/3vkm13.jpeg'/></a>
+<a><img src='https://files.catbox.moe/3vkm13.gif'/></a><a><img src='https://files.catbox.moe/3vkm13.gif'/></a>
