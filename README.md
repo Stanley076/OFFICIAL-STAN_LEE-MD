@@ -81,7 +81,7 @@ star✨ my repo if you like this bot🤖
 
 **2. If You Have Account On Heroku**       
 <br>
-<a href="https://dashboard.heroku.com/new?template=https://github.com/HANSTZ121/HANS-MD/tree/main">
+<a href="https://dashboard.heroku.com/new?template=https://github.com/${githubUser}/HANS-MD/tree/main">
  <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="200" height="38.45"/></a></p>
 
 ##
