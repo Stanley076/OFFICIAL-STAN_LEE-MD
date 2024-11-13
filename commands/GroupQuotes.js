@@ -4,7 +4,7 @@ const { zokou } = require('../framework/zokou');
 zokou({ nomCom: 'quote', categorie: 'Group' }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, verifGroupe, arg } = commandeOptions;
   if (!verifGroupe) {
-    repondre('This Command works in groups only!!!');
+    repondre('This Command works in groups only🤣');
     return;
   }
 
@@ -13,13 +13,13 @@ zokou({ nomCom: 'quote', categorie: 'Group' }, async (dest, zk, commandeOptions)
       fetch('https://animechan.xyz/api/random')
         .then((response) => response.json())
         .then(async (quote) => {
-          repondre(`*Timnasa md Quotes*
+          repondre(`*HANS-MDQuotes*
 
 🎬 Anime: ${quote.anime}
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by Timnasa md`);
+Powered by *hanstech*`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
@@ -31,13 +31,13 @@ Powered by Timnasa md`);
       fetch('https://animechan.xyz/api/random/character?name=' + query)
         .then((response) => response.json())
         .then(async (quote) => {
-          repondre(`lucky md
+          repondre(`HANS-MD
 
 🎬 Anime: ${quote.anime}
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by *timnasa tech*`);
+Powered by *hanstech*`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);

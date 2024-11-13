@@ -43,7 +43,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *TIMNASA😎_MD-WABOT*`
+ *HANS-MD-WA-BOT2025*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
@@ -71,7 +71,7 @@ else {
 }
 
     } else {
-        if(!superUser) { repondre("there is no alive for this bot") ; return};
+        if(!superUser) { repondre("ℍ𝕀 👋 ℍ𝔸ℕ𝕊-𝕄𝔻-𝕀𝕊-𝔸𝕃𝕀𝕍𝔼-𝔸ℕ𝕐-𝕋𝕀𝕄𝔼") ; return};
 
       await   repondre("You have not yet saved your alive, to do this;  enter after alive your message and your image or video link in this context: .alive message;lien");
          repondre("don't do fake thinks :)")
@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' Hello👋 ,*I am Timnasa Md😎* _*Am Alive ALWAYS Just Like You😊*_ *🏹IM BORN TO WIN🏹* _ENJOY LIFE🤗_. ')
+repondre('  𝕋ℍ𝕀𝕊 𝕀𝕊 ℍ𝔸ℕ𝕊-𝕄𝔻 ℕ𝔼𝕎 𝕌ℙ𝔻𝔸𝕋𝔼. ')
 
 }
     });

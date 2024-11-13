@@ -1,10 +1,10 @@
-﻿"use strict";
+"use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
-zokou({ nomCom: "repo", catégorie:"Général", reaction: "🛠️", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
-  const githubRepo = 'https://api.github.com/repos/HANSTZ3/TIMNASA-MD';
-  const img = 'https://telegra.ph/file/347ba7a613b4d025b89a8.jpg';
+zokou({ nomCom: "repo", catégorie:"Général", reaction: "💫", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+  const githubRepo = 'https://api.github.com/repos/HANSTZTECH/HANS-MD';
+  const img = 'https://files.catbox.moe/3vkm13.jpeg';
 
   try {
     const response = await fetch(githubRepo);
@@ -22,26 +22,26 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "🛠️", nomFichier:
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
       const gitdata = `*hellow whatsaap user
-this is* *HANS_MD .*\n support our channel *by*,  https://chat.whatsapp.com/Ia4V8wnwCIjLYaVI3FVHb4
+this is* *HANS_MD .*\n support our channel *by*, https://whatsapp.com/channel/0029VasiOoR3bbUw5aV4qB31
 
-╭─────────────────────➳
-│╭────────────────────➳
-││ 🗼 *REPOSITORY:* ${data.html_url}
-││ 🌟 *STARS:* ${repoInfo.stars}
-││ 🧧 *FORKS:* ${repoInfo.forks}
-││ 📅 *RELEASE DATE:* ${releaseDate}
-││🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
-││ 👨‍💻 *OWNER:* *TIMNASA tech*
-││ 💞 *THEME:* *TIMNASA BOY*
-││ 🥰 *ENJOY TO USE TIMNASA MD *
-│╰────────────────────➳
-│╭──────────────────❍ 
-││  ╭───────────────➳
-││  │ _*Made With hanstz Tech*_
-││  ╰───────────────➳
-│╰──────────────────❍ 
-╰─────────────────────➳ 
- ❍━━━━━━━━━━━━━━━━━━❍`;
+╔═━━━━════──────➳
+║╔═━━━━━━━━━━════─━━━━━━─➳
+║║ 🗼 *REPOSITORY:* ${data.html_url}
+║║ 🌟 *STARS:* ${repoInfo.stars}
+║║ 🧧 *FORKS:* ${repoInfo.forks}
+║║ 📅 *RELEASE DATE:* ${releaseDate}
+║║ 🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
+║║ 👨‍💻 *OWNER:* *HANSTZTECH*
+║║ 💞 *NAME:* *HANS-MD *
+║║ 🥰 *ENJOY TO USE HANS MD *
+║╚══━━━━━━━━════─━━━━━━──➳
+║╔═━━━━━━━━━━════─━━━━━━──✰ 
+║║  ╭───────────────➳
+║║  ║✨ MADE BY HANS ✌️😎
+║║  ╰───────────────➳
+║╚══━━━━━━━━━════─━━━━━━──✰ 
+╚══━━━━━━━════───➳
+ ✰━━━━━━━━━━━━━━━━━━✰`;
 
       await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
     } else {

@@ -1,4 +1,4 @@
-﻿const { zokou } = require("../framework/zokou");
+const { zokou } = require("../framework/zokou");
 const moment = require("moment-timezone");
 const { getBuffer } = require("../framework/dl/Function");
 const { default: axios } = require('axios');
@@ -17,10 +17,10 @@ const runtime = function (seconds) {
  } 
 
 
-zokou({ nomCom: 'vcf',
+zokou({ nomCom: 'vcf1',
     desc: 'To check runtime',
     Categorie: 'General',
-    reaction: '🗄️', 
+    reaction: '📄', 
     fromMe: 'true', 
 
 
@@ -28,7 +28,7 @@ zokou({ nomCom: 'vcf',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_please wait..._*`) 
+                 await repondre(`*_sorry just use 😔 vcf10 to get all contact_*`) 
 
    
 
@@ -40,7 +40,7 @@ zokou({ nomCom: 'vcf',
 zokou({ nomCom: 'getallmembers',
     desc: 'To check runtime',
     Categorie: 'General',
-    reaction: '😎', 
+    reaction: '💀', 
     fromMe: 'true', 
 
 
@@ -61,7 +61,7 @@ zokou({ nomCom: 'getallmembers',
 zokou({ nomCom: 'channel',
     desc: 'To check runtime',
     Categorie: 'My Contact',
-    reaction: '🐞', 
+    reaction: '🎁', 
     fromMe: 'true', 
 
 
@@ -69,7 +69,7 @@ zokou({ nomCom: 'channel',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31`) 
+                 await repondre(`Support Here My Owner By Follow This Channel Please :https://whatsapp.com/channel/0029VasiOoR3bbUw5aV4qB31`) 
 
    
 
@@ -78,10 +78,10 @@ zokou({ nomCom: 'channel',
 );
 
 
-zokou({ nomCom: 'timnasagc',
+zokou({ nomCom: 'chatme',
     desc: 'To check runtime',
     Categorie: 'My Contact',
-    reaction: '🤓', 
+    reaction: '😎', 
     fromMe: 'true', 
 
 
@@ -89,7 +89,7 @@ zokou({ nomCom: 'timnasagc',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*Tap Here To follow WHATSAPP BOT  channeel * https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31`) 
+                 await repondre(`*Tap Here To Chat with HANSTZ * https://wa.me/255760774888`) 
 
    
 
@@ -109,7 +109,7 @@ zokou({ nomCom: 'update',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_TIMNASA MD is running on its latest vision_*`) 
+                 await repondre(`*_HANS MD🌝is running on its latest vision_*`) 
 
    
 
@@ -129,7 +129,7 @@ zokou({ nomCom: 'vision',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_TIMNASA MD_*`) 
+                 await repondre(`*_HANS  MD_*`) 
 
    
 
@@ -139,10 +139,10 @@ zokou({ nomCom: 'vision',
 
 
   
-zokou({ nomCom: 'timnasawagc',
+zokou({ nomCom: 'hansmd',
     desc: 'To check runtime',
     Categorie: 'My Contact',
-    reaction: '♻️', 
+    reaction: '🌀', 
     fromMe: 'true', 
 
 
@@ -150,7 +150,7 @@ zokou({ nomCom: 'timnasawagc',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*Tap To Join WhatsApp Bot Group* https://chat.whatsapp.com/Ia4V8wnwCIjLYaVI3FVHb4`) 
+                 await repondre(`*_tap the link below to follow my CHANNEL= https://whatsapp.com/channel/0029VasiOoR3bbUw5aV4qB31_*`) 
 
    
 
@@ -159,10 +159,10 @@ zokou({ nomCom: 'timnasawagc',
 )
 
 
-zokou({ nomCom: 'hack2',
+zokou({ nomCom: 'hack',
     desc: 'To check runtime',
     Categorie: 'My Contact',
-    reaction: '🐅', 
+    reaction: '🌝', 
     fromMe: 'true', 
 
 
@@ -188,11 +188,48 @@ zokou({ nomCom: 'hack2',
     "SENDING LOG DOCUMENTS...",
     "SUCCESSFULLY SENT DATA AND Connection disconnected",
     "BACKLOGS CLEARED",
-    "POWERED BY HANS TECH",
-    "By HANS Tech`) 
+    "POWERED BY HANS MD",
+    "By HANS TECH`) 
 
    
 
 
   }
 )
+
+
+
+
+zokou({ nomCom: 'problem',
+    desc: 'To check runtime',
+    Categorie: 'General',
+    reaction: '🔎', 
+    fromMe: 'true', 
+
+
+  },
+  async (dest, zk, commandeOptions) => {
+    const { ms, arg, repondre } = commandeOptions;
+
+                 await repondre(`*_┏━━━━━━━━━━━━━━
+┃HANS-MD 
+| 
+┃   
+┗━━━━━━━━━━━━━━━
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+❶ || Creator = 𖥘 HANS TZ 𖥘
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+❷ || WhattsApp Channel = https://whatsapp.com/channel/0029VasiOoR3bbUw5aV4qB31
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+Please Follow My Githubu
+✌️ https://github.com/HANSTZTECH
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+©*2025-2099 HANS TECH_*`) 
+
+   
+
+
+  }
+);
+
+

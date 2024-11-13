@@ -19,7 +19,7 @@ const{repondre,ms,dev,superUser}=com;
 
   const {exec}=require("child_process")
 
-    repondre("*timnasa is restarting ...*");
+    repondre("*hi ${m.pushName} hans-md is restarting ...*");
 
   exec("pm2 restart all");
   

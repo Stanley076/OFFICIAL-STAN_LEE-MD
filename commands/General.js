@@ -2,7 +2,7 @@ const { zokou } = require("../framework/zokou");
 const {getAllSudoNumbers,isSudoTableNotEmpty} = require("../bdd/sudo")
 const conf = require("../set");
 
-zokou({ nomCom: "owner", categorie: "General", reaction: "🏹" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "owner", categorie: "General", reaction: "✌️" }, async (dest, zk, commandeOptions) => {
     const { ms , mybotpic } = commandeOptions;
     
   const thsudo = await isSudoTableNotEmpty()
@@ -51,16 +51,16 @@ zokou({ nomCom: "owner", categorie: "General", reaction: "🏹" }, async (dest, 
   }
 });
 
-zokou({ nomCom: "dev", categorie: "General", reaction: "💞" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "dev", categorie: "hansinfo", reaction: "✨" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "hans😎boy", numero: "255756530143" },
-      { nom: "timnasa teach", numero: "255784766591" },
+      { nom: "hanstz😎", numero: "255760774888" },
+      { nom: "hans teach", numero: "255756530143" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "Hello👋 timnasa Welcome🤝 To timnasa😎 Md ! here is the dev :\n\n";
+    let message = "👋🤓 𝗵𝗲𝗹𝗹𝗼𝘄 𝘄𝗲𝗹𝗰𝗼𝗺𝗲🤝 To ✨𝗛𝗔𝗡𝗦-𝗠𝗗✨  𝗵𝗲𝗿𝗲 𝗶𝘀 𝘁𝗵𝗲 𝗱𝗲𝘃 :\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -95,20 +95,20 @@ zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOpti
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
   repondre("look on pm sir ")
-  await zsendMessage(auteurMessage,{text :`https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31`},{quoted :ms})
+  await zsendMessage(auteurMessage,{text :`https://whatsapp.com/channel/0029VasiOoR3bbUw5aV4qB31`},{quoted :ms})
 
 })
 
-zokou({ nomCom: "developer", categorie: "General", reaction: "🤠" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "developer", categorie: "General", reaction: "✌️" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "HANSBOY😎BOY", numero: "255756530143" },
-      { nom: "Timnasa teach", numero: "255784766591" },
+      { nom: "HI✌️AM HANS😎TZ", numero: "255760774888" },
+      { nom: "hans teach", numero: "255756530143" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "👋 *Welcome to TIMNASA md * here is the developer numbers:\n\n";
+    let message = " HI👋 *Welcome to hans md * here is the developer numbers:\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }

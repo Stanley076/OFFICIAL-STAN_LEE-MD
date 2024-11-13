@@ -2,38 +2,38 @@ const { zokou } = require("../framework/zokou");
 const fs = require('fs');
 
 
-let antiDeleteActive = false; // Variable to store the state of the anti-delete command
+let antiDeleteActive = false; // Variable pour stocker l'état de la commande anti-delete
 
 zokou({
   nomCom: "anti-delete",
   categorie: "General",
-  reaction: "⚒️"
+  reaction: "😔"
 }, async (origineMessage, zk, commandeOptions) => {
   const { ms, arg } = commandeOptions;
 
-  // Check if an argument is provided to enable or disable the command
+  // Vérifier si un argument est fourni pour activer ou désactiver la commande
   if (arg[0]) {
     const action = arg[0].toLowerCase();
     if (action === "on") {
       antiDeleteActive = true;
-      await zk.sendMessage(origineMessage, "The anti-delete command is enabled.");
+      await zk.sendMessage(origineMessage, "La commande anti-delete est activée.");
       return;
     } else if (action === "off") {
       antiDeleteActive = false;
-      await zk.sendMessage(origineMessage, "The anti-delete command is desabled.");
+      await zk.sendMessage(origineMessage, "La commande anti-delete est désactivée.");
       return;
     }
   }
 
-  // Check if the anti-delete command is enabled
+  // Vérifier si la commande anti-delete est activée
   if (!antiDeleteActive) {
-    await zk.sendMessage(origineMessage, "The anti-delete command is currently disabled.");
+    await zk.sendMessage(origineMessage, "La commande anti-delete est actuellement désactivée.");
     return;
   }
 
   if (ms.message.protocolMessage && ms.message.protocolMessage.type === 0 && (conf.ADM).toLowerCase() === 'yes') {
     if (ms.key.fromMe || ms.message.protocolMessage.key.fromMe) {
-      console.log('Message deleted about me');
+      console.log('Message supprimé me concernant');
       return;
     }
 
@@ -61,7 +61,7 @@ zokou({
       }
 
       const senderId = msg.key.participant.split('@')[0];
-      const caption = ` Anti-delete-message by TIMNASA Tech\nMessage de @${senderId}`;
+      const caption = ` Anti-delete-message by hanstz Tech\nMessage de @${senderId}`;
       const imageCaption = { image: { url: './media/deleted-message.jpg' }, caption, mentions: [msg.key.participant] };
 
       await zk.sendMessage(idBot, imageCaption);

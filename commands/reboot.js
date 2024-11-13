@@ -1,4 +1,4 @@
-﻿const {zokou}=require("../framework/zokou")
+const {zokou}=require("../framework/zokou")
 
 
 
@@ -14,12 +14,12 @@ const{repondre,ms,dev,superUser}=com;
 
   if(!superUser)
   {
-    return repondre("This command is for owner or TIMNASA TEACH");
+    return repondre("hi This command is for owner or HANSTZ");
   }
 
   const {exec}=require("child_process")
 
-    repondre("TIMNASA-MD is bot Restarting ⏳");
+    repondre("HANS-MD  bot Restarting ⏳");
 
   exec("pm2 restart all");
   

@@ -13,14 +13,15 @@ zokou({ nomCom: 'quote', categorie: 'Fun' }, async (dest, zk, commandeOptions) =
         .then((response) => response.json())
         .then(async (quote) => {
           repondre(`╔══════════════════════════╗
-║   TIMNASA-MD               ║
+║   HANS-MD new update 2025
+║   ✨made by hans tech
 ╚══════════════════════════╝
 
 🎬 Anime: ${quote.anime}
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by TIMNASA-MD`);
+Powered by Hans tech`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
@@ -33,14 +34,14 @@ Powered by TIMNASA-MD`);
         .then((response) => response.json())
         .then(async (quote) => {
           repondre(`╔══════════════════════════╗
-║   TIMNASA-MD               ║
+║   Hans-md               ║
 ╚══════════════════════════╝
 
 🎬 Anime: ${quote.anime}
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by TIMNASA-MD`);
+Powered by Hans tech`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);

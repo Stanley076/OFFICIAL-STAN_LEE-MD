@@ -4,7 +4,7 @@ const axios = require('axios');
 //--------
 async function githubstalk(user) {
     return new Promise((resolve, reject) => {
-        axios.get('https://api.github.com/HANSTZ3/'+user)
+        axios.get('https://api.github.com/users/'+user)
         .then(({ data }) => {
             let info = {
                 username: data.login,
@@ -37,25 +37,25 @@ zokou(
     nomCom: 'github',
     alias: ['githubstalk'],
     categorie: 'gitcme',
-    reaction: '♻️'
+    reaction: '🛰️'
   },
   
   async (dest, zk, {ms, arg, repondre}) => {
     if (!arg[0]) return await repondre("Username is missing");
     try {
     const { username, following, followers, type, bio, company, blog, location, email, public_repo, public_gists, profile_pic, created_at, updated_at, html_url, name, id } = await githubstalk(arg.join(' '));
-    const info = `*── 「 GITHUB USER INFO 」 ──*
+    const info = `*── 「 𝗚𝗜𝗧𝗛𝗨𝗕 𝗨𝗦𝗘𝗥 𝗜𝗡𝗙𝗢 」 ──*
 
-🔖 *Nickname :* ${HANSTZ}
-🔖 *Username :* ${HANSTZ3}
+🔖 *Nickname :* ${name}
+🔖 *Username :* ${username}
 🚩 *Id :* ${id}
 ✨ *Bio :* ${bio}
 🏢 *Company :* ${company}
-📍 *Location :* ${DODOMA}
-📧 *Email :* ${hanstzgames@gmail.com}
+📍 *Location :* ${location}
+📧 *Email :* ${email}
 📰 *Blog :* ${blog}
 🔓 *Public Repos :* ${axios.get(public_repo).then((res) => res.data.map((repo) => !repo.private ? `\n- *${repo.name}* : https://github.com/${repo.full_name}`: null))}
-🔐 *Public Gists :* https://gist.github.com/HANSTZ3/TIMNASA-MD${HANSTZ3}/
+🔐 *Public Gists :* https://gist.github.com/${username}/
 💕 *Followers :* ${followers}
 👉 *Following :* ${following}
 🔄 *Updated At :* ${updated_at}
