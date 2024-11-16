@@ -66,11 +66,11 @@ star✨ my repo if you like this bot🤖
  𝔾𝔼𝕋 𝕊𝔼𝕊𝕊𝕀𝕆ℕ 𝕀𝔻 𝔹𝕐
  
 
-<a href="https://anthony-boniphace.onrender.com/pair"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/QR CODE-h?color=black&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
+<a href="https://hans-md-session-id-6du8.onrender.com/"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/QR CODE-h?color=black&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
 
 
  
-<a href="https://anthony-boniphace.onrender.com/pair"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIRING CODE-h?color=black&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
+<a href="https://hans-md-session-id-6du8.onrender.com/"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIRING CODE-h?color=black&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
 
 
 ## 𝟛.𝕋ℍ𝕀ℝ𝔻 𝕊𝕋𝔼ℙ 
@@ -110,9 +110,9 @@ The WhatsApp Bot ℍ𝔸ℕ𝕊 𝕄𝔻 is released under the [MIT License](htt
 - [**Developers YT**](https://youtube.com/@anthonyboniphace?si=TFChPRJAOHgtf-ZY)
  <a><img src='https://files.catbox.moe/3vkm13.gif'/></a>
  
-★THANK YOU GOD FOR THAT MOMENT🙏. ©
+
 <a><img src='https://files.catbox.moe/huyw9t.jpg'/></a>
 
-     
+     ★THANK YOU GOD FOR THAT MOMENT🙏. ©
 
 
