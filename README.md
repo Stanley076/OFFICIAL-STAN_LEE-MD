@@ -2,7 +2,7 @@
 
  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=red&size=25&center=true&vCenter=true&width=600&height=100&lines=I'm+hans+md+Created+by+hans.&heart;++;Self-taught+Back-Created+By,;Fredi+Ezra+Am+The,;Best+Is+Bot+For+You+To,;Deploy..<3"></a>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=DAA520&center=true&width=910&height=100&lines=THANKS FOR CHOOSING+HANS;MD+BOT+CREATED+BY+HANSTZ" alt="Typing SVG" /></a>
+href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=DAA520&center=true&width=910&height=100&lines=THANKS FOR CHOOSING+HANS;MD+BOT+CREATED+BY+HANSTZ" alt="Typing SVG" /></a>
   </p>
  href="https://whatsapp.com/channel/0029VasiOoR3bbUw5aV4qB31">
  <img alt="HANS-MD" height="300" src="https://files.catbox.moe/3vkm13.jpeg">
